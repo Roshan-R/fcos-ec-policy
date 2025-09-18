@@ -9,3 +9,30 @@ rule_data:
   allowed_rpm_signature_keys:
     # Fedora Rawhide (GPG fingerprint: DBFC F71C 6D9F 90A6)
     - "0000000000000000"
+
+  # List of known RPM repositories used to validate the source of RPMs.
+  known_rpm_repositories:
+    - fedora
+    - fedora-archive
+    - fedora-archive-updates
+    - fedora-candidate-compose
+    - fedora-coreos-continuous
+    - fedora-coreos-pool
+    - fedora-devel
+    - fedora-modular
+    - fedora-next
+    - fedora-next-updates
+    - fedora-next-updates-testing
+    - fedora-rawhide
+    - fedora-riscv
+    - fedora-riscv-debuginfo
+    - fedora-riscv-koji
+    - fedora-riscv-source
+    - fedora-riscv-staging
+    - fedora-riscv-staging-debuginfo
+    - fedora-riscv-staging-source
+    - fedora-updates
+    - fedora-updates-modular
+    - fedora-updates-testing
+    - fedora-updates-testing-modular
+    - rawhide
